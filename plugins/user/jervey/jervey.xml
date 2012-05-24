@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<extension type="plugin" version="2.5" group="user" method="upgrade">
+  <name>User - Jervey</name>
+  <creationDate>08-Feb-2012</creationDate>
+  <author>Fayez Naccache</author>
+  <authorEmail>addex03@yahoo.fr</authorEmail>
+  <authorUrl>http://www.fayez-naccache.com</authorUrl>
+  <copyright>2012</copyright>
+  <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+  <version>1.0</version>
+  <description>User Plugin - Bind every new user to all public surveys</description>
+  <files folder="site">
+    <filename plugin="jquarks4s">jervey.php</filename>
+  </files>
+</extension>
