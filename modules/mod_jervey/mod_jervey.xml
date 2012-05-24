@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<extension type="module" version="2.5" method="upgrade">
+  <name>jervey</name>
+  <creationDate></creationDate>
+  <author>Fayez Naccache</author>
+  <authorEmail>addex03@yahoo.fr</authorEmail>
+  <authorUrl>http://www.fayez-naccache.com</authorUrl>
+  <copyright>2012</copyright>
+  <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+  <version>1.1.3</version>
+  <description>jervey Frontend Module - Displays available surveys on the site</description>
+  <files folder="site">
+    <filename module="mod_jervey">mod_jervey.php</filename>
+  </files>
+</extension>
