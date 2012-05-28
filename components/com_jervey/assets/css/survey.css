@@ -1,0 +1,8 @@
+footer {
+    text-align: center;
+}
+
+div.jervey_warning {
+    color: red;
+    display: none;
+}
