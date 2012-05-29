@@ -2,7 +2,7 @@ footer {
     text-align: center;
 }
 
-div.jervey_warning {
+div.jq4s_warning {
     color: red;
-    display: none;
+    font-weight: bold;
 }
