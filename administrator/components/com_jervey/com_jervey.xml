@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<extension type="component" version="2.5" method="upgrade">
+  <name>Jervey</name>
+  <creationDate></creationDate>
+  <author>Fayez Naccache</author>
+  <authorEmail>addex03@yahoo.fr</authorEmail>
+  <authorUrl></authorUrl>
+  <copyright>2012</copyright>
+  <license></license>
+  <version>1.0.0</version>
+  <description>Survey tool for Joomla 2.5</description>
+  <install>
+    <sql />
+  </install>
+  <uninstall>
+    <sql />
+  </uninstall>
+  <files folder="site">
+    <folder>views</folder>
+    <filename>controller.php</filename>
+    <filename>jervey.php</filename>
+  </files>
+  <administration>
+    <menu img="components/com_jervey/assets/images/com_jervey-16.png">jervey</menu>
+    <files folder="admin">
+      <folder>assets</folder>
+      <folder>language</folder>
+      <filename>jervey.php</filename>
+    </files>
+    <languages folder="language/backend">
+      <language tag="en-GB">en-GB/en-GB.com_jervey.ini</language>
+    </languages>
+  </administration>
+</extension>
