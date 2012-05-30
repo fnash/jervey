@@ -2,7 +2,7 @@
 
 defined('_JEXEC') or die('restricted access'); 
 
-require_once (JPATH_COMPONENT_ADMINISTRATOR . DS . 'helpers' . DS . 'jerveyHtmlHelper.php');
+require_once (JPATH_COMPONENT_ADMINISTRATOR . DS . 'helpers' . DS . 'JerveyHtmlHelper.php');
 
 ?>
 
@@ -18,7 +18,7 @@ require_once (JPATH_COMPONENT_ADMINISTRATOR . DS . 'helpers' . DS . 'jerveyHtmlH
 <ul>
     <?php foreach ($this->public_surveys as $survey): ?>
     <li>
-        <a href="<?php echo jerveyHtmlHelper::linkToSurvey($survey->id) ?>"><?php echo $survey->title ?></a>
+        <a href="<?php echo JerveyHtmlHelper::linkToSurvey($survey->id) ?>"><?php echo $survey->title ?></a>
     </li>
     <?php endforeach; ?>
 </ul>
@@ -29,10 +29,7 @@ require_once (JPATH_COMPONENT_ADMINISTRATOR . DS . 'helpers' . DS . 'jerveyHtmlH
 <ul>
     <?php foreach ($this->private_surveys as $survey): ?>
     <li class="jervey_survey_li">
-        <a href="<?php echo jerveyHtmlHelper::linkToSurvey($survey->id) ?>"><?php echo $survey->title ?></a>
+        <a href="<?php echo JerveyHtmlHelper::linkToSurvey($survey->id) ?>"><?php echo $survey->title ?></a>
     </li>
     <?php endforeach; ?>
 </ul>
-<div class="jervey_powered_by">
-    <a href="http://www.iptechinside.com/labs/projects/show/jquarks-for-surveys"><strong>powered by jervey</strong></a>
-</div>

@@ -1,15 +1,6 @@
 <?php
 defined('_JEXEC') or die('restricted access');
 
-global $mainframe;
-
-$jq = JRoute::_("components/com_jervey/assets/js/jquery-1.6.1.js");
-$vld = JRoute::_("components/com_jervey/assets/js/jquery.validate.min.js");
-$tag = '<script src="'.$jq.'"  type="text/javascript"></script>
-        <script src="'.$vld.'" type="text/javascript"></script>';
-$mainframe->addCustomHeadTag($tag);
-$mainframe->addCustomHeadTag('<link rel="stylesheet" href="' . $this->baseurl . '/components/com_jervey/assets/css/survey.css" type="text/css" />');
-
 JHTML::_('behavior.formvalidation');
 
 $vld_tag = 'required';
