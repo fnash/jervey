@@ -5,7 +5,7 @@ defined('_JEXEC') or die('');
 jimport('joomla.application.component.controller');
 
 
-class jerveyControllerSurveys extends JController
+class JerveyControllerSurveys extends JController
 {
     function display()
     {

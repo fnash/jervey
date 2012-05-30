@@ -15,7 +15,7 @@ defined('_JEXEC') or die('');
 
 jimport('joomla.application.component.view');
 
-class jerveyViewsurveys extends JView
+class JerveyViewsurveys extends JView
 {
     function display($tpl = null)
     {

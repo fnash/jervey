@@ -31,7 +31,7 @@ defined('_JEXEC') or die();
 
 jimport('joomla.application.component.model');
 
-class jerveyModelSession extends JModel
+class JerveyModelSession extends JModel
 {
     /**
      * @var int

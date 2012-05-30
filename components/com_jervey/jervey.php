@@ -26,7 +26,7 @@ else
 includeControllerPath($controllerName, $defaultController);
 
 // Instantiate the controller
-$classname = 'jerveyController'.ucfirst($controllerName);
+$classname = 'JerveyController'.ucfirst($controllerName);
 $controllerObject = new $classname();
 
 $controllerObject->execute(JRequest::getCmd('task'));

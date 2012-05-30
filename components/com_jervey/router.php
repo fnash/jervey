@@ -2,7 +2,7 @@
 
 defined('_JEXEC') or die('Restricted access');
 
-function jerveyBuildRoute( &$query )
+function JerveyBuildRoute( &$query )
 {
        $segments = array();
        if (isset($query['controller']))
@@ -18,7 +18,7 @@ function jerveyBuildRoute( &$query )
        return $segments;
 }
 
-function jerveyParseRoute( $segments )
+function JerveyParseRoute( $segments )
 {
        $vars = array();
        switch($segments[0])

@@ -3,12 +3,12 @@ defined('_JEXEC') or die('restricted access');
 
 global $mainframe;
 
-$jq = JRoute::_("components/com_jquarks4s/assets/js/jquery-1.6.1.js");
-$vld = JRoute::_("components/com_jquarks4s/assets/js/jquery.validate.min.js");
+$jq = JRoute::_("components/com_jervey/assets/js/jquery-1.6.1.js");
+$vld = JRoute::_("components/com_jervey/assets/js/jquery.validate.min.js");
 $tag = '<script src="'.$jq.'"  type="text/javascript"></script>
         <script src="'.$vld.'" type="text/javascript"></script>';
 $mainframe->addCustomHeadTag($tag);
-$mainframe->addCustomHeadTag('<link rel="stylesheet" href="' . $this->baseurl . '/components/com_jquarks4s/assets/css/survey.css" type="text/css" />');
+$mainframe->addCustomHeadTag('<link rel="stylesheet" href="' . $this->baseurl . '/components/com_jervey/assets/css/survey.css" type="text/css" />');
 
 JHTML::_('behavior.formvalidation');
 
@@ -304,7 +304,7 @@ if ($this->rows): // if survey exists
         <br />
         <div><?php echo $footer; ?></div>
 
-        <input type="hidden" name="option"     value="com_jquarks4s" />
+        <input type="hidden" name="option"     value="com_jervey" />
         <input type="hidden" name="controller" value="survey" />
         <input type="hidden" name="task"       value="submitSurvey" />
         <input type="hidden" name="survey_id"  value="<?php echo $this->survey_id; ?>"/>

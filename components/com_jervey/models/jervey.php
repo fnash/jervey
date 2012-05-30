@@ -5,7 +5,7 @@ defined('_JEXEC') or die('');
 jimport('joomla.application.component.model');
 
 
-class jerveyModeljervey extends JModel
+class JerveyModelJervey extends JModel
 {
 
     public function __construct()
