@@ -1,0 +1,111 @@
+table.toolbar span { float: none; width: 64px; height: 64px; margin: 0 auto; display: block; }
+
+div.icon a {
+	display: block;
+	float: left;
+	border: 1px solid #f0f0f0;
+	height: 97px;
+	width: 108px;
+	color: #666;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.icon-norepeat {
+    background-repeat: no-repeat;
+}
+
+
+/** home toolbar icons **/
+ .icon-32-question {
+     background-image: url(../images/question.png);
+     height: 32px;
+ }
+.icon-32-section {
+    background-image: url(../images/section.png);
+    height: 32px;
+    
+}
+
+.icon-32-survey {
+    background-image: url(../images/survey.png);
+    height: 32px;
+    
+}
+
+.icon-32-session {
+    background-image: url(../images/session.png);
+    height: 32px;
+}
+
+.icon-32-print {
+    background-image: url(../images/print.png);
+    height: 32px;
+}
+
+.icon-32-chart {
+    background-image: url(../images/chart.png);
+    height: 32px;
+}
+
+.icon-32-table {
+    background-image: url(../images/table.png);
+    height: 32px;
+}
+
+.icon-32-pie {
+    background-image: url(../images/pie.png);
+    height: 32px;
+}
+
+.icon-32-next {
+    background-image: url(../images/next.png);
+    height: 32px;
+}
+
+.icon-32-export {
+    background-image: url(../images/export.png);
+    height: 32px;
+}
+
+.icon-32-camera {
+    background-image: url(../images/camera.png);
+    height: 32px;
+}
+
+
+/** Component toolbar titles icons **/
+.icon-48-generic {
+    background-image: url(../images/icon-48-generic.png);
+    height: 48px;
+}
+
+.icon-48-section {
+    background-image: url(../images/icon-48-section.png);
+    height: 48px;
+}
+
+.icon-48-survey {
+    background-image: url(../images/icon-48-survey.png);
+    height: 48px;
+}
+
+.icon-48-question {
+    background-image: url(../images/icon-48-question.png);
+    height: 48px;
+}
+
+.icon-48-session {
+    background-image: url(../images/icon-48-session.png);
+    height: 48px;
+}
+
+.icon-48-analysis {
+    background-image: url(../images/icon-48-analysis.png);
+    height: 48px;
+}
+
+.icon-48-export {
+    background-image: url(../images/icon-48-export.png);
+    height: 48px;
+}

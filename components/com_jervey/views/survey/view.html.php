@@ -30,7 +30,7 @@ class JerveyViewSurvey extends JView
         $this->assignRef('user_id', $user_id);
 
         $doc = JFactory::getDocument();
-        $doc->addScript(JRoute::_("media/com_jervey/site/js/jquery-1.6.1.js"));
+        $doc->addScript(JRoute::_("media/com_jervey/shared/js/jquery-1.6.1.js"));
         $doc->addScript(JRoute::_("media/com_jervey/site/js/jquery.validate.min.js"));
         $doc->addStyleSheet(JRoute::_("media/com_jervey/site/css/survey.css"));
 
