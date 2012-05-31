@@ -1,4 +1,5 @@
 <?php
+
 /**
  * jervey Component snapshot_question Table
  *
@@ -26,63 +27,61 @@
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  *  or see <http://www.gnu.org/licenses/>
  */
-
 defined('_JEXEC') or die();
-
 
 class TableSnapshot_question extends JTable
 {
     /**
-	 *
-	 * @var int
-	 */
+     *
+     * @var int
+     */
     var $id = null;
 
     /**
-	 *
-	 * @var int
-	 */
+     *
+     * @var int
+     */
     var $question_id = null;
 
     /**
-	 *
-	 * @var text
-	 */
+     *
+     * @var text
+     */
     var $statement = null;
 
     /**
-	 *
-	 * @var int
-	 */
+     *
+     * @var int
+     */
     var $type_id = null;
 
     /**
-	 *
-	 * @var boolean
-	 */
+     *
+     * @var boolean
+     */
     var $nature = null;
 
     /**
-	 *
-	 * @var int
-	 */
+     *
+     * @var int
+     */
     var $row_id = null;
 
     /**
-	 *
-	 * @var string
-	 */
+     *
+     * @var string
+     */
     var $row_title = null;
 
     /**
-	 *
-	 * @var int
-	 */
+     *
+     * @var int
+     */
     var $snapshot_analysis_id = null;
 
-
     function TableSnapshot_question(& $db)
-	{
-		parent::__construct('#__jervey_snapshot_question', 'id', $db) ;
-	}
+    {
+        parent::__construct('#__jervey_snapshot_question', 'id', $db);
+    }
+
 }
