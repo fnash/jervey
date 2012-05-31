@@ -23,7 +23,6 @@ if ($this->rows): // if survey exists
     <script type="text/javascript">
         jQuery(document).ready(function ($) {
             $("#jq4s_srvy_frm").validate({ 
-                debug: true,
                 errorPlacement: function(error, element) {
                     element.prev('.jq4s_warning').html(error);
                 }
